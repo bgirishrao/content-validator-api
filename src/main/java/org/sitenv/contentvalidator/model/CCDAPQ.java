@@ -2,13 +2,13 @@ package org.sitenv.contentvalidator.model;
 
 import java.util.ArrayList;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
 
 public class CCDAPQ extends CCDADataElement {
 	
-	private static Logger log = Logger.getLogger(CCDAPQ.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAPQ.class.getName());
 	private static final double delta = 0.0001;
 	
 	private String  value;

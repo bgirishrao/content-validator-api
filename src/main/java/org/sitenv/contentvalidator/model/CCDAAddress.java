@@ -1,10 +1,10 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 public class CCDAAddress {
 	
-	private static Logger log = Logger.getLogger(CCDAPatient.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAPatient.class.getName());
 	
 	private CCDADataElement addressLine1;
 	private CCDADataElement addressLine2;

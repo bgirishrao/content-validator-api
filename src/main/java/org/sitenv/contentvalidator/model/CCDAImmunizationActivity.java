@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
 import org.sitenv.contentvalidator.parsers.ParserUtilities;
@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class CCDAImmunizationActivity {
 	
-	private static Logger log = Logger.getLogger(CCDAImmunizationActivity.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAImmunizationActivity.class.getName());
 	
 	private ArrayList<CCDAII>     				templateIds;
 	private CCDAEffTime							time;

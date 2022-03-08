@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.model.CCDACode;
 import org.sitenv.contentvalidator.model.CCDADataElement;
 import org.sitenv.contentvalidator.model.CCDAHeaderElements;
@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class CCDAHeaderParser {
 	
-	private static Logger log = Logger.getLogger(CCDAHeaderParser.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAHeaderParser.class.getName());
 
 	static public CCDAHeaderElements getHeaderElements(Document doc, boolean curesUpdate) throws XPathExpressionException {
 		

@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.parsers.ParserUtilities;
 
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class CCDAProblemConcern {
 	
-	private static Logger log = Logger.getLogger(CCDAProblemConcern.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAProblemConcern.class.getName());
 
 	private ArrayList<CCDAII>     		templateId;
 	private CCDACode         	   		concernCode;

@@ -1,12 +1,12 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 import java.util.ArrayList;
 
 public class CCDASocialHistory {
 
-	private static Logger log = Logger.getLogger(CCDASocialHistory.class.getName());
+	private static Logger log = LogManager.getLogger(CCDASocialHistory.class.getName());
 	
 	private ArrayList<CCDAII>					sectionTemplateIds;
 	private CCDACode							sectionCode;

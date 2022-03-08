@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.model.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class SocialHistoryParser {
 	
-	private static Logger log = Logger.getLogger(SocialHistoryParser.class.getName());
+	private static Logger log = LogManager.getLogger(SocialHistoryParser.class.getName());
 	
 	public static void parse(Document doc, CCDARefModel model, boolean curesUpdate) throws XPathExpressionException {
     	

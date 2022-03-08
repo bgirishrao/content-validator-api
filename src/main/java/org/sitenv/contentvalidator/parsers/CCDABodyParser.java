@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.w3c.dom.Document;
 
@@ -8,7 +8,7 @@ import javax.xml.xpath.XPathExpressionException;
 
 public class CCDABodyParser {
 	
-	private static Logger log = Logger.getLogger(CCDABodyParser.class.getName());
+	private static Logger log = LogManager.getLogger(CCDABodyParser.class.getName());
 	
 	static public void parseBody(Document doc, CCDARefModel model, boolean curesUpdate) throws XPathExpressionException{
 	

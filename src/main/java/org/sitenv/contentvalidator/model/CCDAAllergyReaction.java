@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
 import org.sitenv.contentvalidator.parsers.ParserUtilities;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class CCDAAllergyReaction {
 	
-	private static Logger log = Logger.getLogger(CCDAAllergyReaction.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAAllergyReaction.class.getName());
 	
 	private ArrayList<CCDAII>			templateIds;
 	private CCDACode					reactionCode;

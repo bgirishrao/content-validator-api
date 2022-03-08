@@ -11,7 +11,7 @@ import javax.xml.xpath.XPathExpressionException;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.io.input.BOMInputStream;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.enums.SeverityLevel;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.springframework.stereotype.Component;
@@ -21,7 +21,7 @@ import org.xml.sax.SAXException;
 @Component
 public class CCDAParser {
 	
-	private static Logger log = Logger.getLogger(CCDAParser.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAParser.class.getName());
 	
 	private DocumentBuilder        builder;
 	private Document               doc;

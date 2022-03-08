@@ -1,12 +1,12 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 import java.util.ArrayList;
 
 public class CCDABirthSexObs {
 
-	private static Logger log = Logger.getLogger(CCDASmokingStatus.class.getName());
+	private static Logger log = LogManager.getLogger(CCDASmokingStatus.class.getName());
 
 	private ArrayList<CCDAII>					templateIds;
 	private CCDACode                            birthSexObsCode;

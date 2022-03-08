@@ -2,11 +2,11 @@ package org.sitenv.contentvalidator.model;
 
 import java.util.ArrayList;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 public class CCDADischargeDiagnosis {
 
-	private static Logger log = Logger.getLogger(CCDADischargeDiagnosis.class.getName());
+	private static Logger log = LogManager.getLogger(CCDADischargeDiagnosis.class.getName());
 
 	private ArrayList<CCDAII>    templateId;
 	private CCDACode  sectionCode;

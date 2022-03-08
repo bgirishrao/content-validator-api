@@ -1,11 +1,11 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.springframework.util.StringUtils;
 
 public class CCDATelecom {
 
-	private static Logger log = Logger.getLogger(CCDATelecom.class.getName());
+	private static Logger log = LogManager.getLogger(CCDATelecom.class.getName());
 	
 	private String useAttribute;
 	private String valueAttribute;

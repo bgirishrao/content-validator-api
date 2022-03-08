@@ -1,10 +1,10 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 public class CCDAPreferredLanguage {
 	
-		private static Logger log = Logger.getLogger(CCDAPreferredLanguage.class.getName());
+		private static Logger log = LogManager.getLogger(CCDAPreferredLanguage.class.getName());
 	
 		private CCDACode languageCode ;
 		private CCDACode modeCode;

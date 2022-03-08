@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
 
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class CCDAPatient {
 	
-	private static Logger log = Logger.getLogger(CCDAPatient.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAPatient.class.getName());
 	
 	private CCDADataElement firstName;
 	private CCDADataElement lastName;

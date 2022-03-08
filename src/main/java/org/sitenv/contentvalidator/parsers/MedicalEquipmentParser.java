@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.model.CCDAMedicalEquipment;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.sitenv.contentvalidator.model.CCDAUDI;
@@ -15,7 +15,7 @@ import org.w3c.dom.NodeList;
 
 public class MedicalEquipmentParser {
 
-	private static Logger log = Logger.getLogger(MedicalEquipmentParser.class.getName());
+	private static Logger log = LogManager.getLogger(MedicalEquipmentParser.class.getName());
 	
 	public static void parse(Document doc, CCDARefModel model, boolean curesUpdate) throws XPathExpressionException {
 	    	

@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.service;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.SeverityLevel;
 import org.sitenv.contentvalidator.model.CCDARefModel;
@@ -16,7 +16,7 @@ import java.util.Set;
 
 @Component
 public class ContentValidatorService {		
-	private static Logger log = Logger.getLogger(ContentValidatorService.class.getName());
+	private static Logger log = LogManager.getLogger(ContentValidatorService.class.getName());
 	
 	@Autowired
 	private CCDAParser parser;

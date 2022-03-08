@@ -1,12 +1,12 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 import java.util.ArrayList;
 
 public class CCDATobaccoUse {
 	
-	private static Logger log = Logger.getLogger(CCDATobaccoUse.class.getName());
+	private static Logger log = LogManager.getLogger(CCDATobaccoUse.class.getName());
 	
 	private ArrayList<CCDAII>					tobaccoUseTemplateIds;
 	private CCDACode							tobaccoUseSectionCode;

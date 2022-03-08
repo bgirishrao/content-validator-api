@@ -2,11 +2,11 @@ package org.sitenv.contentvalidator.model;
 
 import java.util.ArrayList;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 
 public class CCDAII extends CCDADataElement{
 	
-	private static Logger log = Logger.getLogger(CCDAII.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAII.class.getName());
 	
 	private String  rootValue;
 	private String  extValue;

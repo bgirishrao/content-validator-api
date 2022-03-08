@@ -1,6 +1,6 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
 
@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class CCDAEffTime {
 	
-	private static Logger log = Logger.getLogger(CCDAEffTime.class.getName());
+	private static Logger log = LogManager.getLogger(CCDAEffTime.class.getName());
 
 	private CCDADataElement low;
 	private Boolean         lowPresent;
