@@ -1,12 +1,13 @@
 package org.sitenv.contentvalidator.model;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
-import org.sitenv.contentvalidator.dto.ContentValidationResult;
-import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.sitenv.contentvalidator.dto.ContentValidationResult;
+import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
 
 public class CCDASmokingStatus {
 

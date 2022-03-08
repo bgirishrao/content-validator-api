@@ -1,14 +1,15 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpressionException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.sitenv.contentvalidator.model.CCDALabResult;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
-
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
 
 public class LabTestParser {
 	

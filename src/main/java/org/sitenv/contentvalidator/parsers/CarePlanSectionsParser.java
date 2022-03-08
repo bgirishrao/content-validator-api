@@ -3,7 +3,8 @@ package org.sitenv.contentvalidator.parsers;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.sitenv.contentvalidator.model.CCDACarePlanSections;
 import org.sitenv.contentvalidator.model.CCDAII;
 import org.sitenv.contentvalidator.model.CCDARefModel;

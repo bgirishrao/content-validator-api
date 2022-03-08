@@ -1,17 +1,28 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
-import org.sitenv.contentvalidator.dto.ContentValidationResult;
-import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
-import org.sitenv.contentvalidator.model.*;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.sitenv.contentvalidator.dto.ContentValidationResult;
+import org.sitenv.contentvalidator.dto.enums.ContentValidationResultLevel;
+import org.sitenv.contentvalidator.model.CCDAAddress;
+import org.sitenv.contentvalidator.model.CCDAAuthor;
+import org.sitenv.contentvalidator.model.CCDACode;
+import org.sitenv.contentvalidator.model.CCDADataElement;
+import org.sitenv.contentvalidator.model.CCDAEffTime;
+import org.sitenv.contentvalidator.model.CCDAFrequency;
+import org.sitenv.contentvalidator.model.CCDAII;
+import org.sitenv.contentvalidator.model.CCDANotes;
+import org.sitenv.contentvalidator.model.CCDANotesActivity;
+import org.sitenv.contentvalidator.model.CCDAPQ;
+import org.sitenv.contentvalidator.model.CCDATelecom;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 
 public class ParserUtilities {
 	

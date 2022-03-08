@@ -1,19 +1,19 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
+import java.util.ArrayList;
+
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpressionException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.sitenv.contentvalidator.model.CCDACode;
-import org.sitenv.contentvalidator.model.CCDADataElement;
 import org.sitenv.contentvalidator.model.CCDAHeaderElements;
 import org.sitenv.contentvalidator.model.CCDAPatient;
 import org.sitenv.contentvalidator.model.CCDAPreferredLanguage;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
-
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
-
-import java.util.ArrayList;
 
 public class CCDAHeaderParser {
 	

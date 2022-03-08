@@ -11,7 +11,8 @@ import javax.xml.xpath.XPathExpressionException;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.io.input.BOMInputStream;
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.sitenv.contentvalidator.dto.enums.SeverityLevel;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.springframework.stereotype.Component;

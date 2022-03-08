@@ -1,12 +1,12 @@
 package org.sitenv.contentvalidator.parsers;
 
+import java.util.Iterator;
+
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
-
-import java.util.Iterator;
 
 public class CCDAConstants {
 

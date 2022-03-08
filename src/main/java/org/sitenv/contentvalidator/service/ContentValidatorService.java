@@ -1,18 +1,19 @@
 package org.sitenv.contentvalidator.service;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
+
+import javax.annotation.Resource;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.sitenv.contentvalidator.dto.ContentValidationResult;
 import org.sitenv.contentvalidator.dto.enums.SeverityLevel;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.sitenv.contentvalidator.parsers.CCDAParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.Resource;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Set;
 
 @Component
 public class ContentValidatorService {		

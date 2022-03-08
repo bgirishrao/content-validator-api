@@ -1,8 +1,8 @@
 package org.sitenv.contentvalidator.model;
 
-import org.sitenv.contentvalidator.dto.ContentValidationResult;
-
 import java.util.ArrayList;
+
+import org.sitenv.contentvalidator.dto.ContentValidationResult;
 
 public class CCDADataElement {
 

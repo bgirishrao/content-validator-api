@@ -1,14 +1,23 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
-import org.sitenv.contentvalidator.model.*;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import java.util.ArrayList;
 
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
-import java.util.ArrayList;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.sitenv.contentvalidator.model.CCDAAdmissionDiagnosis;
+import org.sitenv.contentvalidator.model.CCDADischargeDiagnosis;
+import org.sitenv.contentvalidator.model.CCDAEncounter;
+import org.sitenv.contentvalidator.model.CCDAEncounterActivity;
+import org.sitenv.contentvalidator.model.CCDAEncounterDiagnosis;
+import org.sitenv.contentvalidator.model.CCDAProblemObs;
+import org.sitenv.contentvalidator.model.CCDARefModel;
+import org.sitenv.contentvalidator.model.CCDAServiceDeliveryLoc;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 
 public class EncounterParser {
 	

@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.sitenv.contentvalidator.model.CCDAMedicalEquipment;
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.sitenv.contentvalidator.model.CCDAUDI;

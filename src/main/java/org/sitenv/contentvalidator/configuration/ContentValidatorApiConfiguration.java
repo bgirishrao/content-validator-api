@@ -1,5 +1,7 @@
 package org.sitenv.contentvalidator.configuration;
 
+import java.util.HashMap;
+
 import org.sitenv.contentvalidator.model.CCDARefModel;
 import org.sitenv.contentvalidator.parsers.CCDAParser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +10,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.env.Environment;
-
-import java.util.HashMap;
 
 /**
  * Created by Brian on 2/5/2016.

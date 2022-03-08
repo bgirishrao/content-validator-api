@@ -1,14 +1,22 @@
 package org.sitenv.contentvalidator.parsers;
 
-import org.apache.logging.log4j.Logger; import org.apache.logging.log4j.LogManager;
-import org.sitenv.contentvalidator.model.*;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+import java.util.ArrayList;
 
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
-import java.util.ArrayList;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.sitenv.contentvalidator.model.CCDAAssignedEntity;
+import org.sitenv.contentvalidator.model.CCDAOrganization;
+import org.sitenv.contentvalidator.model.CCDAProcActProc;
+import org.sitenv.contentvalidator.model.CCDAProcedure;
+import org.sitenv.contentvalidator.model.CCDARefModel;
+import org.sitenv.contentvalidator.model.CCDAServiceDeliveryLoc;
+import org.sitenv.contentvalidator.model.CCDAUDI;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
 
 public class ProcedureParser {
 	
